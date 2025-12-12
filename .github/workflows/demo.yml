@@ -1,8 +1,8 @@
 name: Demo pipeline
 
 on: 
-  push
-    branches
+  push:
+    branches:
       _ main
       - dev
   pull_request:
